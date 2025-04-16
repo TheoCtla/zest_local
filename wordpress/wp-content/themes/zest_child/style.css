@@ -1,11 +1,35 @@
-/*
-Theme Name: Zest Child
-Template: twentytwentyfour
-Author: Ton Nom
-Version: 1.0
-*/
-
-body {
-  /* Tu pourras ajouter ton CSS perso ici */
+.hero {
+  background: linear-gradient(135deg, #fc466b, #3f5efb);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
 }
 
+.hero .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  background-color: white;
+  color: #fc466b;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #f9c5d1;
+}
